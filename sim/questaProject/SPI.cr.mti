@@ -1,0 +1,247 @@
+{C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_if.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling interface WRAPPER_IF
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_agent.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_agent.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package WRAPPER_sequencer_pkg
+-- Importing package WRAPPER_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package WRAPPER_monitor_pkg
+-- Importing package WRAPPER_driver_pkg
+-- Importing package WRAPPER_config_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_monitor.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_monitor.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package WRAPPER_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_top.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_top.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package SPI_slave_top_sv_unit
+-- Importing package SPI_slave_test_pkg
+-- Importing package SPI_slave_env_pkg
+-- Importing package SPI_slave_scoreboard_pkg
+-- Importing package SPI_slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_coverage_pkg
+-- Importing package SPI_slave_agent_pkg
+-- Importing package SPI_slave_driver_pkg
+-- Importing package SPI_slave_monitor_pkg
+-- Importing package SPI_slave_sequencer_pkg
+-- Importing package SPI_slave_config_pkg
+-- Importing package SPI_slave_reset_sequence_pkg
+-- Importing package SPI_slave_main_sequence_pkg
+-- Compiling module SPI_slave_top
+
+Top level modules:
+	SPI_slave_top
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_reset_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_reset_sequence.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package SPI_slave_reset_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_seq_item_pkg
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_reset_sequence.sv(4): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequence.sv} {0 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequence.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequence.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shared_pkg
+-- Importing package WRAPPER_seq_item_pkg
+** Error (suppressible): (vlog-13276) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequence.sv(58:111): Could not find field/method name (state_old) in 'wrapper_seq_item' of 'wrapper_seq_item.state_old'.
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_driver.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package SPI_slave_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_seq_item_pkg
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_driver.sv(4): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_env.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_env.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package WRAPPER_agent_pkg
+-- Importing package WRAPPER_sequencer_pkg
+-- Importing package WRAPPER_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package WRAPPER_monitor_pkg
+-- Importing package WRAPPER_driver_pkg
+-- Importing package WRAPPER_config_pkg
+-- Importing package WRAPPER_scoreboard_pkg
+-- Importing package WRAPPER_coverage_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_sequencer.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package RAM_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_sequencer.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package RAM_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_if.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling interface SPI_slave_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_config.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_config.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package RAM_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_config.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_config.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_config.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_config.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_monitor.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package RAM_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_monitor.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package RAM_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_sequencer.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package SPI_slave_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_seq_item_pkg
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_env.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package RAM_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_env.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package RAM_agent_pkg
+-- Importing package RAM_sequencer_pkg
+-- Importing package RAM_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package RAM_monitor_pkg
+-- Importing package RAM_driver_pkg
+-- Importing package RAM_config_pkg
+-- Importing package RAM_scoreboard_pkg
+-- Importing package RAM_coverage_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequencer.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_sequencer.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package WRAPPER_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_config.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_config.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package SPI_slave_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_config.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_driver.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package RAM_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/RAM_driver.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package RAM_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_driver.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package WRAPPER_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/WRAPPER_driver.sv(3): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package WRAPPER_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_monitor.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package SPI_slave_monitor_pkg
+-- Importing package SPI_slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_monitor.sv(4): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_env.sv}
+QuestaSim-64 vlog 2024.1 Compiler 2024.02 Feb  1 2024
+-- Compiling package SPI_slave_env_pkg
+-- Importing package SPI_slave_scoreboard_pkg
+-- Importing package SPI_slave_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_coverage_pkg
+-- Importing package SPI_slave_agent_pkg
+-- Importing package SPI_slave_driver_pkg
+-- Importing package SPI_slave_monitor_pkg
+-- Importing package SPI_slave_sequencer_pkg
+-- Importing package SPI_slave_config_pkg
+** Note: (vlog-2286) C:/Users/Mohamed Yasser/Desktop/Digital/Verfication/Projects/SPI/QuestaProject/SPI_slave_env.sv(6): Using implicit +incdir+C:/questasim64_2024.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

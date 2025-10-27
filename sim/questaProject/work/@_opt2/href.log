@@ -1,0 +1,89 @@
+BEGIN 1:RAM:fast:work
+    MEM :  1:WRAPPER_top:fast:work
+END 
+BEGIN 3:RAM_IF:fast__1:work
+    tx_valid :  1:RAM_monitor_pkg:fast:work
+    rx_valid :  1:RAM_monitor_pkg:fast:work
+    clk :  1:RAM_monitor_pkg:fast:work
+    dout_ref :  1:RAM_monitor_pkg:fast:work
+    din :  1:RAM_monitor_pkg:fast:work
+    tx_valid_ref :  1:RAM_monitor_pkg:fast:work
+    dout :  1:RAM_monitor_pkg:fast:work
+    rst_n :  1:RAM_monitor_pkg:fast:work
+END 
+BEGIN 1:WRAPPER_ref:fast:work
+    tx_data_dout :  1:WRAPPER_top:fast:work
+    tx_valid :  1:WRAPPER_top:fast:work
+    MISO :  1:WRAPPER_top:fast:work
+    rx_data_din :  1:WRAPPER_top:fast:work
+    rx_valid :  1:WRAPPER_top:fast:work
+END 
+BEGIN 3:SPI_slave_if:fast__1:work
+    tx_data :  1:SPI_slave_monitor_pkg:fast:work
+    rst_n :  1:SPI_slave_monitor_pkg:fast:work
+    rx_data_ref :  1:SPI_slave_monitor_pkg:fast:work
+    rx_data :  1:SPI_slave_monitor_pkg:fast:work
+    MOSI :  1:SPI_slave_monitor_pkg:fast:work
+    SS_n :  1:SPI_slave_monitor_pkg:fast:work
+    MISO_ref :  1:SPI_slave_monitor_pkg:fast:work
+    MISO :  1:SPI_slave_monitor_pkg:fast:work
+    clk :  1:SPI_slave_monitor_pkg:fast:work
+    tx_valid :  1:SPI_slave_monitor_pkg:fast:work
+    rx_valid_ref :  1:SPI_slave_monitor_pkg:fast:work
+    rx_valid :  1:SPI_slave_monitor_pkg:fast:work
+END 
+BEGIN 3:RAM_IF:fast__2:work
+    rst_n :  1:RAM:fast:work 1:WRAPPER_top:fast:work
+    clk :  1:RAM:fast:work
+    dout :  1:RAM:fast:work 1:WRAPPER_top:fast:work
+    dout_ref :  1:WRAPPER_top:fast:work
+    rx_valid :  1:RAM:fast:work 1:WRAPPER_top:fast:work
+    tx_valid_ref :  1:WRAPPER_top:fast:work
+    tx_valid :  1:RAM:fast:work 1:WRAPPER_top:fast:work
+    din :  1:RAM:fast:work 1:WRAPPER_top:fast:work
+END 
+BEGIN 1:WRAPPER:fast:work
+    tx_data_dout :  1:WRAPPER_top:fast:work
+    SS_n :  1:WRAPPER_top:fast:work
+    MOSI :  1:WRAPPER_top:fast:work
+    tx_valid :  1:WRAPPER_top:fast:work
+    rx_data_din :  1:WRAPPER_top:fast:work
+    rx_valid :  1:WRAPPER_top:fast:work
+    rst_n :  1:WRAPPER_top:fast:work
+    MISO :  1:WRAPPER_top:fast:work
+END 
+BEGIN 1:RAM_ref:fast:work
+    mem :  1:WRAPPER_top:fast:work
+END 
+BEGIN 3:WRAPPER_IF:fast__1:work
+    clk :  1:WRAPPER_monitor_pkg:fast:work
+    SS_n :  1:WRAPPER_monitor_pkg:fast:work
+    MISO :  1:WRAPPER_monitor_pkg:fast:work
+    rst_n :  1:WRAPPER_monitor_pkg:fast:work
+    MISO_ref :  1:WRAPPER_monitor_pkg:fast:work
+    MOSI :  1:WRAPPER_monitor_pkg:fast:work
+END 
+BEGIN 3:SPI_slave_if:fast__2:work
+    rx_data_ref :  1:WRAPPER_top:fast:work
+    rst_n :  1:WRAPPER_top:fast:work
+    rx_data :  1:WRAPPER_top:fast:work
+    MOSI :  1:WRAPPER_top:fast:work
+    MISO :  1:WRAPPER_top:fast:work
+    tx_data :  1:WRAPPER_top:fast:work
+    rx_valid_ref :  1:WRAPPER_top:fast:work
+    SS_n :  1:WRAPPER_top:fast:work
+    rx_valid :  1:WRAPPER_top:fast:work
+    MISO_ref :  1:WRAPPER_top:fast:work
+    tx_valid :  1:WRAPPER_top:fast:work
+END 
+BEGIN 3:WRAPPER_IF:fast__2:work
+    clk :  1:WRAPPER:fast:work 1:WRAPPER_top:fast:work
+    MISO_ref :  1:WRAPPER_top:fast:work
+    MOSI :  1:WRAPPER:fast:work 1:WRAPPER_top:fast:work
+    MISO :  1:WRAPPER:fast:work 1:WRAPPER_top:fast:work
+    SS_n :  1:WRAPPER:fast:work 1:WRAPPER_top:fast:work
+    rst_n :  1:WRAPPER:fast:work 1:WRAPPER_top:fast:work
+END 
+BEGIN 1:SLAVE:fast:work
+    cs :  1:WRAPPER:fast:work
+END 
